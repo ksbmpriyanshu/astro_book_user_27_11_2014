@@ -146,6 +146,7 @@ import BlogDescription from '../screens/BlogDescription';
 import AstroBookHeader from '../components/AstroBookHeader';
 import PoojaCategory from '../screens/pooja/PoojaCategory';
 import BookingPuja from '../screens/pooja/BookingPuja';
+import PujaHistory from '../screens/pooja/PujaHistory';
 
 
 const Stack = createNativeStackNavigator();
@@ -401,6 +402,7 @@ const StackNavigator = (data, data1) => {
       <Stack.Screen name="AstrologyBlog" component={AstrologyBlog} options={{ headerShown: false }}/>
       <Stack.Screen name="BlogDescription" component={BlogDescription} options={{ headerShown: false }}/>
       <Stack.Screen name="poojacategory" component={PoojaCategory} options={{ headerShown: false }}/>
+      <Stack.Screen name="PujaHistory" component={PujaHistory} options={{ headerShown: false }}/>
     </Stack.Navigator>
   );
 };
